@@ -11,3 +11,4 @@ ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /run.sh /entrypoint.sh
 
 ENTRYPOINT /entrypoint.sh
+CMD cron && tail -f /var/log/cron.log
