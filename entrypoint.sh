@@ -1,3 +1,3 @@
 #!/bin/bash
-service cron start
+#service cron start
 #cron -f
